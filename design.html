@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: rgb(34, 28, 58);
+      }
+      .all{
+        position: grid;
+        place-items: center;
+      }
+      .out{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 150px;
+        height: 50px;
+        background-image: linear-gradient(to bottom right, #03afda,#96f2f5);
+        border-radius: 40px;
+        border: 3px rgba(17, 17, 17, 0.404) solid ;
+        overflow: hidden;
+      }
+      .sec-out{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 150px;
+        height: 50px;
+        
+        background-image: linear-gradient(to bottom left, #000000,#4e4e4e);
+        border-radius: 40px;
+        border: 3px rgba(17, 17, 17, 0.404) solid ;
+        overflow: hidden;
+      }
+      .in{
+        
+      height: 41px;
+      width: 41px;
+      background-color: rgba(61, 61, 61, 0.925);
+      border-radius: 35px;
+      position: absolute;
+      top: 10%;
+      left: 3%;
+
+      }
+      .sec-in{
+        height: 41px;
+      width: 41px;
+      background-color: rgba(218, 218, 218, 0.925);
+      border-radius: 35px;
+      position: absolute;
+      top: 10%;
+      right: 3%;
+
+        
+      }
+      .im img{
+          height: 60px;
+      width: 60px;
+      position: absolute;
+      right: -8px;
+      top: 16%;
+        }
+      .sec-im img{
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      left: 10px;
+      top: 16%;
+        }
+        
+</style>
+</head>
+<body> 
+  <div class="all">
+      <div class="tit">
+        <h1 style="text-align: center; color: white; margin-top: 200px;">design checkbox</h1>
+      </div>
+
+      <div class="out">
+        <div class="in">
+
+        </div>
+        <div class="im">
+          <img src="img/sun_037.png" alt="">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="sec-out">
+        <div class="sec-in">
+
+        </div>
+        <div class="sec-im">
+          <img src="img/moon.png" alt="">
+        </div>
+      </div>
+  </div>
+  
+   
+</body>
+</html>
