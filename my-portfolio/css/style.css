@@ -237,6 +237,7 @@ header a{
     text-align: center;
     font-size: var(--font-normal);
     transition: 0.3s ease-in-out;
+    
 }
 .skills .content .card:hover:not(:last-of-type){
     transform: scale(1.05); 
@@ -289,6 +290,7 @@ header a{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    
 }
 .skills .content .card .text .info .col{
     padding-left: 15px;
@@ -351,6 +353,7 @@ header a{
     -moz-box-shadow: 3px 3px 11px 3px #080c15;
     box-shadow: 3px 3px 11px 3px #080c15;
     transition:  0.3s ease-in-out;
+    /* if you want to set the card the same size commit this -> and set height 100% in info */
     height: fit-content;
 }
 .project .content .card:hover {
@@ -375,7 +378,6 @@ header a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     
 }
 
